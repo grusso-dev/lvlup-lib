@@ -23,7 +23,7 @@ module.exports = {
       "project": "./tsconfig.json"
   },
   "plugins": ["simple-import-sort"],
-  "ignorePatterns": [".eslintrc.cjs", "dist", "node_modules","dts","vite.config.ts","commitlint.config.js"],
+  "ignorePatterns": [".eslintrc.cjs", "dist", "node_modules","dts","vite.config.ts","commitlint.config.cjs"],
   "rules": {
       "simple-import-sort/imports": "error",
       "simple-import-sort/exports": "error",
